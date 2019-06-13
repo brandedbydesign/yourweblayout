@@ -27,12 +27,19 @@
 	<header id="masthead" class="site-header">
 		<div class="container">
 			<div class="row">
+<<<<<<< HEAD
 				<div class="col-md-6">
 					<div id="logo">						
 						<!-- Add this to them and git commit -->
 						<!-- If no logo uploaded, the Site Title will be pulled in through the dashboard General Settings -->
 						<?php yourweblayout_custom_logo(); ?>
 						<!-- Add this to them and git commit -->
+=======
+				<div class="col-sm-6">
+					<div id="logo">						
+						<!-- If no logo uploaded, the Site Title will be pulled in through the dashboard General Settings -->
+						<?php yourweblayout_custom_logo(); ?>
+>>>>>>> bb981e07f55c28cb9f336b2300b0757035d3e923
 						<!-- The Tagline will be pulled in through the dashboard General Settings -->
 						<h3 class="site-description"><?php bloginfo( 'description' ); ?></h3>
 					</div><!-- #logo -->
